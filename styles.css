@@ -49,7 +49,16 @@ table {
 
 /* end reset */
 .title {
-    width: 100%;
-    height: 100%;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+}
+.item {
+    margin-bottom: 20%;
+    font-family: "Montserrat", serif;
+    font-weight: 800;
+    font-size: 25px;
 }
