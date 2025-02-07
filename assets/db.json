@@ -1,0 +1,479 @@
+
+
+{
+    "wifiPassword": "Bodac417" ,
+    "lunch": [
+        {
+        "name": "PASTA INTERA",
+        "price": "6",
+        "details": ""
+        },
+       {
+        "name": "PASTA 3/4",
+        "price": "5.5",
+        "details": ""
+        },{
+        "name": "PASTA 1/2",
+        "price": "5",
+        "details": ""
+        },{
+        "name": "ZUPPA/PASSATA DI LEGUMI",
+        "price": "6",
+        "details": ""
+        },{
+        "name": "PIADINA/PANINO GG",
+        "price": "6",
+        "details": ""
+        },{
+        "name": "PANINI PIU' PICCOLI",
+        "price": "4.5",
+        "details": ""
+        },{
+        "name": "PARMIGIANA",
+        "price": "7",
+        "details": ""
+        },{
+        "name": "PASTICCIO CARNE/VERDURE",
+        "price": "7",
+        "details": ""
+        },{
+        "name": "INSALATA INTERA — CON ACCIUGHE +1",
+        "price": "6",
+        "details": ""
+        },
+        {
+        "name": "INSALATA 3/4",
+        "price": "5",
+        "details": ""
+        },{
+        "name": "PIATTO FREDDO",
+        "price": "8-10",
+        "details": ""
+        },{
+        "name": "POLPETTE E VERDURE / FESA di TACCHINO",
+        "price": "7",
+        "details": ""
+        },{
+        "name": "PF: CAPRESE CON MOZZ NORMALE",
+        "price": "7",
+        "details": ""
+        },{
+        "name": "PF: CAPRESE CON BUFALA",
+        "price": "8",
+        "details": ""
+        }
+    ],
+
+    "drinks": [
+        {
+            "name": "GIN/VODKA + TONIC/LEMON",
+            "price": "6",
+            "details": "Base"
+            },
+            {
+                "name": "GIN + TONIC/LEMON",
+                "price": "7",
+                "details": "Gin Tanqueray"
+                },
+                {
+                    "name": "AMERICANO",
+                    "price": "5",
+                    "details": "Bitter Martini"
+                    },
+                    {
+                        "name": "AMERICANO",
+                        "price": "7",
+                        "details": "Bitter Campari"
+                        },
+                        {
+                            "name": "NEGRONI",
+                            "price": "6",
+                            "details": "Bitter Martini"
+                            },
+                            {
+                                "name": "NEGRONI",
+                                "price": "8",
+                                "details": "Bitter Campari"
+                                },
+                                {
+                                    "name": "LONG DRINK",
+                                    "price": "7",
+                                    "details": "I grandi classici"
+                                    },
+                                    {
+                                        "name": "LONG DRINK PREMIUM",
+                                        "price": "8+",
+                                        "details": "I grandi classici, con i migliori distillati"
+                                        }
+    ],
+    "bowls": [
+       { "notBeer": [
+               { "quantity": 0.5,
+                  "elements": [
+                        {
+                            "name": "SOLO PROSECCO CASA",
+                              "price": "8",
+                            "details": ""
+                            }
+                   ] },
+                     { "quantity": 1,
+                   "elements": [
+            {
+                "name": "PROSECCO CASA",
+                "price": "15",
+                "details": ""
+                },
+                {
+                    "name": "APEROL",
+                    "price": "15",
+                    "details": ""
+                    },
+                    {
+                        "name": "CAMPARI, CYNAR",
+                        "price": "15",
+                        "details": ""
+                        }
+        ] },
+        { "quantity": 1.5,
+        "elements": [
+            {
+                "name": "PROSECCO CASA",
+                "price": "20",
+                "details": ""
+                },
+                {
+                    "name": "APEROL",
+                    "price": "20",
+                    "details": ""
+                    },
+                    {
+                        "name": "CAMPARI, CYNAR",
+                        "price": "20",
+                        "details": ""
+                        } 
+        ] },
+        { "quantity": 2,
+        "elements": [
+                {
+                    "name": "APEROL",
+                    "price": "25",
+                    "details": ""
+                    },
+                    {
+                        "name": "CAMPARI, CYNAR",
+                        "price": "25",
+                        "details": ""
+                        } 
+        ] }
+
+   ] },
+       { "beer": [
+            { "quantity": 1,
+            "elements": [
+                {
+                    "name": "BIONDA",
+                    "price": "13",
+                    "details": ""
+                    },
+                    {
+                     "name": "IPA",
+                    "price": "15",
+                     "details": ""
+                     }  
+            ] },
+            { "quantity": 1.5,
+            "elements": [
+                {
+                    "name": "BIONDA",
+                    "price": "15",
+                    "details": ""
+                    },
+                    {
+                     "name": "IPA",
+                    "price": "17",
+                     "details": ""
+                     } 
+            ] },
+            { "quantity": 2,
+            "elements": [
+                {
+                    "name": "BIONDA",
+                    "price": "18",
+                    "details": ""
+                    },
+                    {
+                     "name": "IPA",
+                    "price": "20",
+                     "details": ""
+                     }  
+            ] }
+
+
+       ] } ],
+    "anal": [
+        {
+            "name": "BICCHIERE ACQUA",
+            "price": "0.5",
+            "details": ""
+            },
+            {
+                "name": "BOTTIGLIA ACQUA",
+                "price": "1",
+                "details": "Piccola"
+                },
+                {
+                    "name": "BOTTIGLIA ACQUA",
+                    "price": "2",
+                    "details": "Grande"
+                    },
+                    {
+                        "name": "FANTA",
+                        "price": "3",
+                        "details": ""
+                        },
+                        {
+                            "name": "COCA-COLA",
+                            "price": "3",
+                            "details": "In lattina, anche zero"
+                            },
+                            {
+                                "name": "COCA-COLA",
+                                "price": "4",
+                                "details": "In bottiglia di vetro"
+                                },
+                                {
+                                    "name": "THE PESCA/LIMONE",
+                                    "price": "3",
+                                    "details": ""
+                                    },
+                                    {
+                                        "name": "REDBULL",
+                                        "price": "3.5",
+                                        "details": ""
+                                        },
+                                        {
+                                            "name": "CRODINO/GINGERINO",
+                                            "price": "3",
+                                            "details": ""
+                                            },
+                                            {
+                                                "name": "SUCCO DI FRUTTA",
+                                                "price": "3",
+                                                "details": ""
+                                                },
+                                                {
+                                                    "name": "LIMONATA",
+                                                    "price": "2.5",
+                                                    "details": ""
+                                                    },
+                                                    {
+                                                        "name": "SPREMUTA DI ARANCE FRESCA",
+                                                        "price": "3.5",
+                                                        "details": ""
+                                                        },
+                                                        {
+                                                            "name": "ACQUA E MENTA",
+                                                            "price": "1",
+                                                            "details": "Bicchiere piccolo"
+                                                            },
+                                                            {
+                                                                "name": "ACQUA E MENTA",
+                                                                "price": "2",
+                                                                "details": "Bicchiere grande"
+                                                                },
+                                                                {
+                                                                    "name": "SCHWEPPES",
+                                                                    "price": "3.5",
+                                                                    "details": "Tonica o limone"
+                                                                    },
+                                                                    {
+                                                                        "name": "GINGER BEER",
+                                                                        "price": "3.5",
+                                                                        "details": "Bicchiere grande"
+                                                                        },
+                                                                        {
+                                                                            "name": "DRINK ANALCOLICI ALLA FRUTTA",
+                                                                            "price": "4",
+                                                                            "details": ""
+                                                                            },
+                                                                            {
+                                                                                "name": "CAMPARI SODA",
+                                                                                "price": "3.5",
+                                                                                "details": ""
+                                                                                }
+                                                                        
+                                        
+    ],
+    "coffee": [
+        {
+            "name": "CAFFE' ESPRESSO/LISCIO",
+            "price": "1.3",
+            "details": ""
+            },
+            {
+                "name": "CAFFE' LUNGO",
+                "price": "1.3",
+                "details": ""
+                },
+                {
+                    "name": "CAFFE' MACCHIATO",
+                    "price": "1.3",
+                    "details": "Caldo o freddo"
+                    },
+                    {
+                        "name": "CAFFE' AMERICANO",
+                        "price": "1.3",
+                        "details": ""
+                        },
+                        {
+                            "name": "CAFFE' DECA",
+                            "price": "1.5",
+                            "details": ""
+                            },
+                            {
+                                "name": "ORZO",
+                                "price": "1.5",
+                                "details": ""
+                                },
+                                {
+                                    "name": "MACCHIATONE",
+                                    "price": "1.5",
+                                    "details": ""
+                                    },
+                                    {
+                                        "name": "CAPPUCCINO",
+                                        "price": "1.6",
+                                        "details": ""
+                                        },
+                                        {
+                                            "name": "CAPPUCCINO DECA",
+                                            "price": "1.8",
+                                            "details": ""
+                                            },
+                                            {
+                                                "name": "CAPPUCCINO ORZO",
+                                                "price": "1.8",
+                                                "details": ""
+                                                },
+                                                {
+                                                    "name": "CAFFE' CORRETTO",
+                                                    "price": "1.9",
+                                                    "details": ""
+                                                    },
+                                                    {
+                                                        "name": "CAFFE' SHAKERATO",
+                                                        "price": "2.5",
+                                                        "details": ""
+                                                        },
+                                                        {
+                                                            "name": "CAFFE' \"ALLA PUGLIESE\"",
+                                                            "price": "1.9",
+                                                            "details": ""
+                                                            }
+    ],
+    "aperitif": [
+        {
+            "name": "SPRITZ BITTER",
+            "price": "4",
+            "details": "CAMPARI, APEROL, CYNAR, SELECT ECC"
+            },
+            {
+                "name": "PROSECCO SPINA",
+                "price": "2.5",
+                "details": "Vino della casa, ghiaccio e limone a scelta"
+                },
+                {
+                    "name": "PROSECCO BOTTIGLIA",
+                    "price": "3.5",
+                    "details": ""
+                    },
+                    {
+                        "name": "GIORGIONE",
+                        "price": "4",
+                        "details": "Spritz Campari senza limone"
+                        },
+                        {
+                            "name": "CYNAR con acqua",
+                            "price": "2.5",
+                            "details": "Piccolo"
+                            },
+                            {
+                                "name": "CYNAR con acqua",
+                                "price": "3.5",
+                                "details": "Grande"
+                                },
+                                {
+                                    "name": "SPRITZ BIANCO",
+                                    "price": "3",
+                                    "details": "In calice"
+                                    },
+                                    {
+                                        "name": "SPRITZ BIANCO",
+                                        "price": "3.5",
+                                        "details": "In tumbler (grande)"
+                                        },
+                                        {
+                                            "name": "AMARI",
+                                            "price": "Da 3.5",
+                                            "details": "In calice"
+                                            },
+                                            {
+                                                "name": "Grappe, gin, tutto il resto",
+                                                "price": "-",
+                                                "details": "Consultare cartellino"
+                                                },
+                                                {
+                                                    "name": "HUGO",
+                                                    "price": "4",
+                                                    "details": ""
+                                                    }
+                                                
+    ],
+    "food": [
+        {
+            "name": "TRAMEZZINI",
+            "price": "2",
+            "details": ""
+            },
+            {
+                "name": "PANINETTI",
+                "price": "1.5",
+                "details": "Gusti vari"
+                },
+                {
+                    "name": "POLPETTE",
+                    "price": "2.5",
+                    "details": ""
+                    },
+                    {
+                        "name": "MOZZARELLE IN CARROZZA",
+                        "price": "3.5",
+                        "details": ""
+                        },
+                        {
+                            "name": "ALETTE/COSCIOTTI POLLO",
+                            "price": "1",
+                            "details": "Al pezzo"
+                            },
+                            {
+                                "name": "FETTINA/CROSTINO CON BACCALA' MANTECATO",
+                                "price": "2.5",
+                                "details": ""
+                                },
+                                {
+                                    "name": "FETTINA PANE CON FOLPETTI BUSARA",
+                                    "price": "2.5",
+                                    "details": ""
+                                    },
+                                    {
+                                        "name": "FETTINA PANE ALLA PARMIGIANA",
+                                        "price": "2.5",
+                                        "details": ""
+                                        }
+    ]
+
+}
+
+
+
+
