@@ -6,6 +6,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'chokoshtroko';
+    src: url('/fonts/chokoshtroko-webfont.woff2') format('woff2'),
+         url('/fonts/chokoshtroko-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -73,6 +81,7 @@ $color-bg3: #d7d7d7;
 
 
 $font-base: 'MontSerrat', sans-serif;
+$font-titles: 'spacecraft', sans-serif;
 
 $mobMargin: 22px;
 $tabletMargin: 44px;
@@ -545,7 +554,6 @@ body { font-family: 'spacecraft', sans-serif;
 }
 
 .container { width: 90%; max-width: 600px; margin: auto; padding: 20px; }
-h1 { color: #ff0066; }
 
 .accordion {
 			font-weight: bolder;
@@ -560,26 +568,28 @@ h1 { color: #ff0066; }
             align-items: center;
             justify-content: center;
             border: 2px solid $color-primary;
-            text-shadow: 2px 2px 2px rgb(0 0 0 / 90%);
-            font-size: 2.6rem;
+            text-shadow: 3px -2px 0px rgba(0, 0, 0, 0.9);
+            font-size: 4.4rem;
 			background: repeat;
     		background-position: 75% 42%;
     		background-size: 4.5rem;
 			background-color: $color-secondary;
  }
-.accordion:hover { opacity: 0.8; }
+//.accordion:hover { opacity: 0.8; }
 
-.accordion:nth-child(even) {
-	border: 2px solid blue;
+.accordion:nth-child(4n-1) {
+	border: 2px solid $color-third;
 }
+.panel:nth-child(4n) .menu-item {
+	background: $color-third;
+}
+
 
 .panel { max-height: 0; 
 			overflow: hidden; 
 			display: flex;
 			flex-direction: column;
-			 
 			background: white; 
-			
 			transition: 
 			max-height 0.3s ease-out, padding 0.3s ease-out; }
 
@@ -613,4 +623,9 @@ h1 { color: #ff0066; }
 		.menu-item-price {
 			font-family: 'montserrat', sans-serif;
 			align-self: center;
+		}
+
+		.footer {
+			font-family: 'chokoshtroko', sans-serif;
+			font-size: 22px;
 		}

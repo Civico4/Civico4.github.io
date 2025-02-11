@@ -632,10 +632,6 @@ body {
   padding: 20px;
 }
 
-h1 {
-  color: #ff0066;
-}
-
 .accordion {
   font-weight: bolder;
   color: #fff;
@@ -649,8 +645,8 @@ h1 {
   align-items: center;
   justify-content: center;
   border: 2px solid #ED6A40;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
-  font-size: 2.6rem;
+  text-shadow: 3px -2px 0px rgba(0, 0, 0, 0.9);
+  font-size: 4.4rem;
   background: repeat;
   background-position: 75% 42%;
   background-size: 4.5rem;
@@ -661,8 +657,12 @@ h1 {
   opacity: 0.8;
 }
 
-.accordion:nth-child(even) {
-  border: 2px solid blue;
+.accordion:nth-child(4n-1) {
+  border: 2px solid #AA78A6;
+}
+
+.panel:nth-child(4n) .menu-item {
+  background: #AA78A6;
 }
 
 .panel {
@@ -707,6 +707,11 @@ h1 {
 .menu-item-price {
   font-family: "montserrat", sans-serif;
   align-self: center;
+}
+
+.footer {
+  font-family: "chokoshtroko", sans-serif;
+  font-size: 22px;
 }
 
 /*# sourceMappingURL=styles.css.map */
