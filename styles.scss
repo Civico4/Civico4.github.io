@@ -1,0 +1,616 @@
+@font-face {
+    font-family: 'spacecraft';
+    src: url('/fonts/spacecraft-webfont.woff2') format('woff2'),
+         url('/fonts/spacecraft-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end reset */
+
+
+
+/* project vars */
+
+$color-primary: #ED6A40;
+$color-secondary: #7DDBD2;
+$color-accent: #361134;
+$color-third: #AA78A6;
+
+$color-bg1: #D7DEDC;
+$color-bg2: #CFCFCD;
+$color-bg3: #d7d7d7;
+
+
+$font-base: 'MontSerrat', sans-serif;
+
+$mobMargin: 22px;
+$tabletMargin: 44px;
+
+$mobMargin2: 44px;
+$tabletMargin2: 88px;
+
+
+// base CSS
+
+//////////////////////////////////////// tailwind at home //////////////////////////////////////////
+.primary {
+	color: $color-primary;
+}
+.secondary {
+	color: $color-secondary
+}
+.accent {
+   color: $color-accent;
+}
+.BGprimary {
+	background-color: $color-primary;
+}
+.BGsecondary {
+	background-color: $color-secondary
+}
+.BGaccent {
+   background-color: $color-accent;
+}
+.BGwhite {
+	background-color: white;
+}
+.BGblack {
+	background-color: black;
+}
+.none {
+   display: none;
+}
+.blockImp {
+   display: block !important;
+}
+.flex {
+	display: flex;
+}
+.flexCent {
+	display: flex;
+	justify-content: center;
+}
+.flexCentCent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flexCol {
+	display: flex;
+	flex-direction: column;
+}
+.flexColCent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.flexColCentCent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.justStart {
+	justify-content: flex-start;
+}
+.justEnd {
+	justify-content: flex-end;
+}
+.justSpaceBetween {
+	justify-content: space-between;
+}
+.justSpaceAround {
+	justify-content: flex-start;
+}
+.h100 {
+	height: 100%;
+}
+.w100 {
+   width: 100%;
+}
+.w10 {
+   width: 10%;
+}
+.w20 {
+	width: 20%;
+ }
+ .w25 {
+   width: 25%;
+}
+.w30 {
+	width: 30%;
+ }
+ .w35 {
+	 width: 35%
+ }
+.w40 {
+	width: 40%;
+ }
+.w50 {
+	width: 50%;
+}
+.w60 {
+	width: 60%;
+}
+.w70 {
+	width: 70%;
+ }
+.w80 {
+	width: 80%;
+ }
+.w90 {
+	width: 90%;
+ }
+.w100-1 {
+	width: calc(100% - 1rem);
+}
+.w100-2 {
+	width: calc(100% - 2rem);
+}
+.w100-4 {
+   width: calc(100% - 4rem);
+}
+.w50-1 {
+   width: calc(50% - 1rem);
+}
+.w50-2 {
+   width: calc(50% - 2rem);
+}
+.w50-4 {
+   width: calc(50% - 4rem);
+}
+.w50-8 {
+   width: calc(50% - 8rem);
+}
+
+
+.centerText {
+	text-align: center;
+}
+.rightText {
+	text-align: right;
+}
+.flexWrap {
+	flex-wrap: wrap;
+}
+.rel {
+	position: relative;
+}
+.abs {
+   top: 0;
+   left: 0;
+   position: absolute;
+}
+.sameAbs {
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+   position: absolute;
+}
+.z0 {
+   z-index:0;
+}
+.z10 {
+	z-index:10;
+}
+.z20 {
+	z-index:20;
+}
+
+
+
+// hex filters https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4 (to end instead, #rrggbbaa)
+.darken1 {
+	background-color: #00000066
+}
+.lighten1 {
+	background-color: #ffffff66
+}
+.lighten2 {
+	background-color: #9bb9bfab
+}
+
+/******* spacing ********/
+.mar1 {
+	margin: 1rem;
+}
+.mar2 {
+	margin: 2rem;
+}
+.mar3 {
+	margin: 3rem;
+}
+.mar4 {
+	margin: 4rem;
+}
+.mar5 {
+	margin: 5rem;
+}
+
+.Tmar0 {
+	margin-top: 0rem;
+}
+.Tmar1 {
+	margin-top: 1rem;
+}
+.Tmar2 {
+	margin-top: 2rem;
+}
+.Tmar3 {
+	margin-top: 3rem;
+}
+.Tmar4 {
+	margin-top: 4rem;
+}
+.Tmar5 {
+	margin-top: 5rem;
+}
+.Rmar0 {
+   margin-right: 0rem;
+}
+.Rmar1 {
+	margin-right: 1rem;
+}
+.Rmar2 {
+	margin-right: 2rem;
+}
+.Rmar3 {
+	margin-right: 3rem;
+}
+.Rmar4 {
+	margin-right: 4rem;
+}
+.Rmar5 {
+	margin-right: 5rem;
+}
+.Lmar0 {
+   margin-left: 0rem;
+}
+.Lmar1 {
+	margin-left: 1rem;
+}
+.Lmar2 {
+	margin-left: 2rem;
+}
+.Lmar3 {
+	margin-left: 3rem;
+}
+.Lmar4 {
+	margin-left: 4rem;
+}
+.Lmar5 {
+	margin-left: 5rem;
+}
+.Bmar0 {
+   margin-bottom: 0rem;
+}
+.Bmar1 {
+	margin-bottom: 1rem;
+}
+.Bmar2 {
+	margin-bottom: 2rem;
+}
+.Bmar3 {
+	margin-bottom: 3rem;
+}
+.Bmar4 {
+	margin-bottom: 4rem;
+}
+.Bmar5 {
+	margin-bottom: 5rem;
+}
+
+.pad1 {
+	padding: 1rem;
+}
+.pad2 {
+	padding: 2rem;
+}
+.pad3 {
+	padding: 3rem;
+}
+.pad4 {
+	padding: 4rem;
+}
+.pad5 {
+	padding: 5rem;
+}
+
+.Tpad1 {
+	padding-top: 1rem;
+}
+.Tpad2 {
+	padding-top: 2rem;
+}
+.Tpad3 {
+	padding-top: 3rem;
+}
+.Tpad4 {
+	padding-top: 4rem;
+}
+.Tpad5 {
+	padding: 5rem;
+}
+.Rpad1 {
+	padding-right: 1rem;
+}
+.Rpad2 {
+	padding-right: 2rem;
+}
+.Rpad3 {
+	padding-right: 3rem;
+}
+.Rpad4 {
+	padding-right: 4rem;
+}
+.Rpad5 {
+	padding-right: 5rem;
+}
+.Lpad1 {
+	padding-left: 1rem;
+}
+.Lpad2 {
+	padding-left: 2rem;
+}
+.Lpad3 {
+	padding-left: 3rem;
+}
+.Lpad4 {
+	padding-left: 4rem;
+}
+.Lpad5 {
+	padding-left: 5rem;
+}
+.Bpad1 {
+	padding-bottom: 1rem;
+}
+.Bpad2 {
+	padding-bottom: 2rem;
+}
+.Bpad3 {
+	padding-bottom: 3rem;
+}
+.Bpad4 {
+	padding-bottom: 4rem;
+}
+.Bpad5 {
+	padding-bottom: 5rem;
+}
+.spacer1 {
+	width: 100%;
+	height: 1rem;
+}
+.spacer2 {
+	width: 100%;
+	height: 2rem;
+}
+.spacer3 {
+	width: 100%;
+	height: 3rem;
+}
+.spacer4 {
+	width: 100%;
+	height: 4rem;
+}
+.spacer5 {
+	width: 100%;
+	height: 5rem;
+}
+.row1 {
+	height: 50rem;
+}
+.row2 {
+	height: 40rem;
+}
+.row3 {
+	height: 30rem;
+}
+.row4 {
+	height: 20rem;
+}
+.row5 {
+	height: 10rem;
+}
+
+/* text */
+.we600 {
+	font-weight: 600;
+}
+.italic {
+	font-style: italic;
+}
+.bolder {
+   font-weight: bolder;
+}
+
+//////////////////////////////////////// end base css //////////////////////////////////////////
+
+
+
+.title {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.item {
+    margin-bottom: 20%;
+    font-family: "Montserrat", serif;
+    font-weight: 800;
+    font-size: 25px;
+	color: $color-primary;
+}
+.menu-container {
+	padding: 0 12px;
+}
+
+
+/* chatgpt stuff */
+
+header {
+    background-color: #ffffff;
+    height: 200px;
+}
+/*
+#menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}*/
+
+.menu-item {
+    background: $color-primary;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1px;
+    text-align: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	text-align: left;
+	min-height: 2.6rem;
+	border-radius: 2px;
+	color: white;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #ff5733;
+    font-weight: bold;
+}
+
+body { font-family: 'spacecraft', sans-serif;
+	margin: 0; padding: 0;  
+	color: #222; 
+	text-align: center; 
+}
+
+.container { width: 90%; max-width: 600px; margin: auto; padding: 20px; }
+h1 { color: #ff0066; }
+
+.accordion {
+			font-weight: bolder;
+            color: #fff;
+            padding: 20px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: background 0.3s;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid $color-primary;
+            text-shadow: 2px 2px 2px rgb(0 0 0 / 90%);
+            font-size: 2.6rem;
+			background: repeat;
+    		background-position: 75% 42%;
+    		background-size: 4.5rem;
+			background-color: $color-secondary;
+ }
+.accordion:hover { opacity: 0.8; }
+
+.accordion:nth-child(even) {
+	border: 2px solid blue;
+}
+
+.panel { max-height: 0; 
+			overflow: hidden; 
+			display: flex;
+			flex-direction: column;
+			 
+			background: white; 
+			
+			transition: 
+			max-height 0.3s ease-out, padding 0.3s ease-out; }
+
+.menu-item .details {
+            font-size: 0.9em;
+            color: #000000;
+        }
+		
+        /* Floating Button */
+        .top-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #ff0066;
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 50%;
+            font-size: 18px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s;
+        }
+        .top-button:hover { background: #cc0052; }
+
+		.menu-item-name {
+			align-self: center;
+			font-family: 'montserrat', sans-serif;
+		}
+
+		.menu-item-price {
+			font-family: 'montserrat', sans-serif;
+			align-self: center;
+		}

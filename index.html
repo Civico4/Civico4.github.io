@@ -5,17 +5,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Civico 4</title>
-    <link rel="icon" type="image/vnd.icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.scss">
+    <link rel="stylesheet" href="styles.css">
 
   </head>
-  <body style="background-color: #7ddbd2;">
-    <div class="title">
-    <p class="item">UNDER CONSTRUCTION</p>
-   </div>
-	 <script src="index.js"></script>
+  <body>
+    <header class="flexCent w100">
+      <img src="./assets/logo.svg">
+    </header>
+    <main>
+      <div class="flexCol w100 categoryContainer">
+        <div class="category pad2 BGwhite">
+          <h2 class="pad2 BGsecondary centerText">I VINI</h2>
+        </div>
+        <div class="category pad2 BGwhite">
+          <h2 class="pad2 centerText">LA FESSA</h2>
+        </div>
+        <div class="category pad2 BGwhite">
+          <h2 class="pad2 centerText">LA TROKA</h2>
+        </div>
+
+      </div>
+
+       <div id="menu-container" class="menu-container"></div>
+       <button class="top-button" onclick="scrollToTop()">⬆️</button>
+    </main>
+    
+	 <script src="script.js"></script>
   </body>
 </html>
+
+
+<!--
+    "bowls": [
+       { "notBeer": [
+               { "quantity": 0.5,
+                  "elements": [
+                        {
+                            "name": "SOLO PROSECCO CASA",
+                              "price": "8",
+                            "details": ""
+                            }
+                   ] },
+                     { "quantity": 1,
+                   "elements": [
+            {
+                "name": "PROSECCO CASA",
+                "price": "15",
+                "details": ""
+                },
+                {
+                    "name": "APEROL",
+                    "price": "15",
+                    "details": ""
+                    },
+                    {
+                        "name": "CAMPARI, CYNAR",
+                        "price": "15",
+                        "details": ""
+                        }
+        ] },
+        { "quantity": 1.5,
+        "elements": [
+            {
+                "name": "PROSECCO CASA",
+                "price": "20",
+                "details": ""
+                },
+                {
+                    "name": "APEROL",
+                    "price": "20",
+                    "details": ""
+                    },
+                    {
+                        "name": "CAMPARI, CYNAR",
+                        "price": "20",
+                        "details": ""
+                        } 
+        ] },
+        { "quantity": 2,
+        "elements": [
+                {
+                    "name": "APEROL",
+                    "price": "25",
+                    "details": ""
+                    },
+                    {
+                        "name": "CAMPARI, CYNAR",
+                        "price": "25",
+                        "details": ""
+                        } 
+        ] }
+
+   ] },
+       { "beer": [
+            { "quantity": 1,
+            "elements": [
+                {
+                    "name": "BIONDA",
+                    "price": "13",
+                    "details": ""
+                    },
+                    {
+                     "name": "IPA",
+                    "price": "15",
+                     "details": ""
+                     }  
+            ] },
+            { "quantity": 1.5,
+            "elements": [
+                {
+                    "name": "BIONDA",
+                    "price": "15",
+                    "details": ""
+                    },
+                    {
+                     "name": "IPA",
+                    "price": "17",
+                     "details": ""
+                     } 
+            ] },
+            { "quantity": 2,
+            "elements": [
+                {
+                    "name": "BIONDA",
+                    "price": "18",
+                    "details": ""
+                    },
+                    {
+                     "name": "IPA",
+                    "price": "20",
+                     "details": ""
+                     }  
+            ] }
+
+
+       ] } ]
+
+-->
