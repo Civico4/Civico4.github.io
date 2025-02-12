@@ -1,6 +1,27 @@
 
 
 let db;
+let isScrolling = false;
+
+function checkScroll() {
+  const scrollButton = document.getElementById("scrollButton");
+
+  const scrollY = window.scrollY || document.documentElement.scrollTop;
+  const viewportHeight = window.innerHeight;
+
+  if (scrollY > viewportHeight) {
+    scrollButton.style.visibility = "visible";
+    scrollButton.style.opacity = "1";
+} else {
+  scrollButton.style.opacity = "0";
+  setTimeout(() => {
+      if (scrollButton.style.opacity === "0") {
+          scrollButton.style.visibility = "hidden";
+      }
+  }, 300); // Matches transition time
+}
+isScrolling = false;
+}
 
 // fetch database
 
@@ -14,6 +35,13 @@ function fetchDb() {
     console.log(db.menu);
     localStorage.setItem("menuCivico", JSON.stringify(db)); // Store data
     displayMenu(Array.from(db.menu));
+    checkScroll();
+    window.addEventListener("scroll", function () {
+      if (!isScrolling) {
+        isScrolling = true;
+        requestAnimationFrame(checkScroll);
+      }
+      });
   })
   .catch(error => console.error('Error loading JSON:', error));
 
@@ -49,11 +77,16 @@ function displayMenu(menuData) {
       
       const nameDiv = document.createElement('div');
       nameDiv.classList.add('menu-item-name');
-      nameDiv.innerHTML = `<strong>${item.name}</strong><br><span class='details'>${item.details || ''}</span>`;
+      if (item.details !== '') {
+        nameDiv.innerHTML = `<strong>${item.name}</strong><br><div class='details'>${item.details}</div>`;
+      } else {
+        nameDiv.innerHTML = `<strong>${item.name}</strong>`;
+      }
+      
       
       const priceDiv = document.createElement('div');
       priceDiv.classList.add('menu-item-price');
-      priceDiv.innerHTML = `$${item.price}`;
+      priceDiv.innerHTML = `${item.price}`;
       priceDiv.style.textAlign = 'right';
       
       itemDiv.appendChild(nameDiv);
@@ -96,4 +129,5 @@ function scrollToTop() {
       panel.style.padding = '0';
   });
 }
+
 

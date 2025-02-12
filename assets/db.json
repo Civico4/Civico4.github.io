@@ -4,8 +4,8 @@
     "wifiPassword": "Bodac417" ,
     "menu": [
         { "category": "lunch",
-            "label": "Pranzo",
-            "image": "kitchen.png",
+            "label": "PRANZO",
+            "image": "foodDood.png",
                 "items": [
                     {
                     "name": "PASTA INTERA",
@@ -69,7 +69,7 @@
                 ]},
                 { "category": "drinks",
                 "label": "Drinks",
-                "image": "cocktail3.png",
+                "image": "cocktail5.png",
                     "items": [
                         {
                             "name": "GIN/VODKA + TONIC/LEMON",
@@ -108,18 +108,213 @@
                                                     },
                                                     {
                                                         "name": "LONG DRINK PREMIUM",
-                                                        "price": "8+",
+                                                        "price": "Da 8",
                                                         "details": "I grandi classici, con i migliori distillati"
                                                         }
                                                     ]},
+                                                    { "category": "whiteWine",
+                                                    "label": "Bianchi",
+                                                    "image": "champagne2.png",
+                                                        "items": [
+                                                            {
+                                                                "name": "TAI",
+                                                                "price": "3",
+                                                                "details": "Calice"
+                                                                },
+                                                                {
+                                                                    "name": "TAI",
+                                                                    "price": "14",
+                                                                    "details": "Bottiglia"
+                                                                    },
+                                                                    {
+                                                                        "name": "SAUVIGNON",
+                                                                        "price": "3",
+                                                                        "details": "Calice"
+                                                                        },
+                                                                        {
+                                                                            "name": "SAUVIGNON",
+                                                                            "price": "14",
+                                                                            "details": "Bottiglia"
+                                                                            },
+                                                                            {
+                                                                                "name": "MALVASIA",
+                                                                                "price": "3.5",
+                                                                                "details": "Calice"
+                                                                                },
+                                                                                {
+                                                                                    "name": "MALVASIA",
+                                                                                    "price": "15",
+                                                                                    "details": "Bottiglia"
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "RIBOLLA GIALLA",
+                                                                                        "price": "3.5",
+                                                                                        "details": "Calice"
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "RIBOLLA GIALLA",
+                                                                                            "price": "15",
+                                                                                            "details": "Bottiglia"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "FRIULANO",
+                                                                                                "price": "3.5",
+                                                                                                "details": "Calice"
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": "FRIULANO",
+                                                                                                    "price": "15",
+                                                                                                    "details": "Bottiglia"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "CATARRATTO",
+                                                                                                        "price": "3.5",
+                                                                                                        "details": "Calice"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "name": "CATARRATTO",
+                                                                                                            "price": "15",
+                                                                                                            "details": "Bottiglia"
+                                                                                                            }
+                                                                                                            
+                                                                                        ]},
+                                                                                        { "category": "redWine",
+                                                                                        "label": "Rossi",
+                                                                                        "image": "wine6.png",
+                                                                                            "items": [
+                                                                                                {
+                                                                                                    "name": "KABERLO'",
+                                                                                                    "price": "3",
+                                                                                                    "details": "Calice"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "KABERLO'",
+                                                                                                        "price": "14",
+                                                                                                        "details": "Bottiglia"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "name": "PRIMITIVO",
+                                                                                                            "price": "3.5",
+                                                                                                            "details": "Calice"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "name": "PRIMITIVO",
+                                                                                                                "price": "15",
+                                                                                                                "details": "Bottiglia"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "name": "REFOSCO",
+                                                                                                                    "price": "3.5",
+                                                                                                                    "details": "Calice"
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "name": "REFOSCO",
+                                                                                                                        "price": "15",
+                                                                                                                        "details": "Bottiglia"
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "name": "SYRAH",
+                                                                                                                            "price": "3",
+                                                                                                                            "details": "Calice"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "name": "SYRAH",
+                                                                                                                                "price": "14",
+                                                                                                                                "details": "Bottiglia"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "name": "RIPASSO",
+                                                                                                                                    "price": "4",
+                                                                                                                                    "details": "Calice"
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "name": "RIPASSO",
+                                                                                                                                        "price": "18",
+                                                                                                                                        "details": "Bottiglia"
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "name": "VALPOLICELLA",
+                                                                                                                                            "price": "3.5",
+                                                                                                                                            "details": "Calice"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "name": "VALPOLICELLA",
+                                                                                                                                                "price": "15",
+                                                                                                                                                "details": "Bottiglia"
+                                                                                                                                                }
+                                                                                                                                                
+                                                                                                                            ]},
             { "category": "bowls",
                 "label": "Caraffe",
                 "image": "pitcher.png",
-                    "items": [] },
+                    "items": [
+                        {
+                            "name": "PROSECCO",
+                            "price": "7",
+                            "details": "0.5 litri"
+                            },
+                            {
+                                "name": "PROSECCO",
+                                "price": "15",
+                                "details": "1 litro"
+                                },
+                                {
+                                    "name": "PROSECCO",
+                                    "price": "20",
+                                    "details": "1.5 litri"
+                                    },
+                                {
+                                    "name": "SPRITZ",
+                                    "price": "15",
+                                    "details": "1 litro"
+                                    },
+                                    {
+                                        "name": "SPRITZ",
+                                        "price": "20",
+                                        "details": "1.5 litri"
+                                        },
+                                        {
+                                            "name": "SPRITZ",
+                                            "price": "25",
+                                            "details": "2 litri"
+                                            },
+                                    {
+                                        "name": "BIRRA BIONDA",
+                                        "price": "13",
+                                        "details": "1 litro"
+                                        },
+                                        {
+                                            "name": "BIRRA IPA",
+                                            "price": "15",
+                                            "details": "1 litro"
+                                            },
+                                                    {
+                                                        "name": "BIRRA BIONDA",
+                                                        "price": "15",
+                                                        "details": "1.5 litri"
+                                                        },
+                                                        {
+                                                            "name": "BIRRA IPA",
+                                                            "price": "17",
+                                                            "details": "1.5 litri"
+                                                            },
+                                                          
+                                                                {
+                                                                    "name": "BIRRA BIONDA",
+                                                                    "price": "18",
+                                                                    "details": "2 litri"
+                                                                    },
+                                                                    {
+                                                                        "name": "BIRRA IPA",
+                                                                        "price": "20",
+                                                                        "details": "2 litri"
+                                                                        }
+
+                    ] },
 
                     { "category": "anal",
                 "label": "Analcolici",
-                "image": "anal.png",
+                "image": "soda-can.png",
                     "items": [
                         {
                             "name": "BICCHIERE ACQUA",
@@ -351,7 +546,7 @@
         
                                                                                                                 { "category": "food",
                                                                                                                 "label": "Cibo",
-                                                                                                                "image": "foodDood.png",
+                                                                                                                "image": "kitchen.png",
                                                                                                                     "items": [       
                                                                                                                         {
                                                                                                                             "name": "TRAMEZZINI",
