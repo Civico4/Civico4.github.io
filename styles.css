@@ -585,6 +585,8 @@ table {
 
 .menu-container {
   padding: 0 12px;
+  max-width: 900px;
+  margin: auto;
 }
 
 /* chatgpt stuff */
