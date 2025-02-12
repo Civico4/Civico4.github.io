@@ -174,72 +174,7 @@
                                                         "details": "I nostri migliori distillati"
                                                         }
                                                     ]},
-                                                    { "category": "whiteWine",
-                                                    "label": "Bianchi",
-                                                    "image": "champagne2.png",
-                                                        "items": [
-                                                            {
-                                                                "name": "TAI",
-                                                                "price": "3",
-                                                                "details": "Calice"
-                                                                },
-                                                                {
-                                                                    "name": "TAI",
-                                                                    "price": "14",
-                                                                    "details": "Bottiglia"
-                                                                    },
-                                                                    {
-                                                                        "name": "SAUVIGNON",
-                                                                        "price": "3",
-                                                                        "details": "Calice"
-                                                                        },
-                                                                        {
-                                                                            "name": "SAUVIGNON",
-                                                                            "price": "14",
-                                                                            "details": "Bottiglia"
-                                                                            },
-                                                                            {
-                                                                                "name": "MALVASIA",
-                                                                                "price": "3.5",
-                                                                                "details": "Calice"
-                                                                                },
-                                                                                {
-                                                                                    "name": "MALVASIA",
-                                                                                    "price": "15",
-                                                                                    "details": "Bottiglia"
-                                                                                    },
-                                                                                    {
-                                                                                        "name": "RIBOLLA GIALLA",
-                                                                                        "price": "3.5",
-                                                                                        "details": "Calice"
-                                                                                        },
-                                                                                        {
-                                                                                            "name": "RIBOLLA GIALLA",
-                                                                                            "price": "15",
-                                                                                            "details": "Bottiglia"
-                                                                                            },
-                                                                                            {
-                                                                                                "name": "FRIULANO",
-                                                                                                "price": "3.5",
-                                                                                                "details": "Calice"
-                                                                                                },
-                                                                                                {
-                                                                                                    "name": "FRIULANO",
-                                                                                                    "price": "15",
-                                                                                                    "details": "Bottiglia"
-                                                                                                    },
-                                                                                                    {
-                                                                                                        "name": "CATARRATTO",
-                                                                                                        "price": "3.5",
-                                                                                                        "details": "Calice"
-                                                                                                        },
-                                                                                                        {
-                                                                                                            "name": "CATARRATTO",
-                                                                                                            "price": "15",
-                                                                                                            "details": "Bottiglia"
-                                                                                                            }
-                                                                                                            
-                                                                                        ]},
+                            
                                                                                         { "category": "redWine",
                                                                                         "label": "Rossi",
                                                                                         "image": "wine6.png",
@@ -306,6 +241,72 @@
                                                                                                                                                 }
                                                                                                                                                 
                                                                                                                             ]},
+                                                                                                                            { "category": "whiteWine",
+                                                                                                                            "label": "Bianchi",
+                                                                                                                            "image": "champagne2.png",
+                                                                                                                                "items": [
+                                                                                                                                    {
+                                                                                                                                        "name": "TAI",
+                                                                                                                                        "price": "3",
+                                                                                                                                        "details": "Calice"
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "name": "TAI",
+                                                                                                                                            "price": "14",
+                                                                                                                                            "details": "Bottiglia"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "name": "SAUVIGNON",
+                                                                                                                                                "price": "3",
+                                                                                                                                                "details": "Calice"
+                                                                                                                                                },
+                                                                                                                                                {
+                                                                                                                                                    "name": "SAUVIGNON",
+                                                                                                                                                    "price": "14",
+                                                                                                                                                    "details": "Bottiglia"
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "name": "MALVASIA",
+                                                                                                                                                        "price": "3.5",
+                                                                                                                                                        "details": "Calice"
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "name": "MALVASIA",
+                                                                                                                                                            "price": "15",
+                                                                                                                                                            "details": "Bottiglia"
+                                                                                                                                                            },
+                                                                                                                                                            {
+                                                                                                                                                                "name": "RIBOLLA GIALLA",
+                                                                                                                                                                "price": "3.5",
+                                                                                                                                                                "details": "Calice"
+                                                                                                                                                                },
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "RIBOLLA GIALLA",
+                                                                                                                                                                    "price": "15",
+                                                                                                                                                                    "details": "Bottiglia"
+                                                                                                                                                                    },
+                                                                                                                                                                    {
+                                                                                                                                                                        "name": "FRIULANO",
+                                                                                                                                                                        "price": "3.5",
+                                                                                                                                                                        "details": "Calice"
+                                                                                                                                                                        },
+                                                                                                                                                                        {
+                                                                                                                                                                            "name": "FRIULANO",
+                                                                                                                                                                            "price": "15",
+                                                                                                                                                                            "details": "Bottiglia"
+                                                                                                                                                                            },
+                                                                                                                                                                            {
+                                                                                                                                                                                "name": "CATARRATTO",
+                                                                                                                                                                                "price": "3.5",
+                                                                                                                                                                                "details": "Calice"
+                                                                                                                                                                                },
+                                                                                                                                                                                {
+                                                                                                                                                                                    "name": "CATARRATTO",
+                                                                                                                                                                                    "price": "15",
+                                                                                                                                                                                    "details": "Bottiglia"
+                                                                                                                                                                                    }
+                                                                                                                                                                                    
+                                                                                                                                                                ]},
                                                                                                                             { "category": "food",
                                                                                                                             "label": "Cibo",
                                                                                                                             "image": "kitchen.png",
