@@ -656,9 +656,9 @@ body {
   border: 4px solid black;
   text-shadow: 3px -2px 0px rgba(237, 106, 64, 0.5764705882);
   font-size: 4.4rem;
-  background: repeat;
+  background: no-repeat;
   background-position: 75% 42%;
-  background-size: 4.5rem;
+  background-size: 10rem;
   background-color: #7DDBD2;
 }
 

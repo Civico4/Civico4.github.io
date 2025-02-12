@@ -8,65 +8,127 @@
             "image": "foodDood.png",
                 "items": [
                     {
-                    "name": "PASTA INTERA",
+                    "name": "PASTA",
                     "price": "6",
-                    "details": ""
+                    "details": "Porzione abbondante"
                     },
                    {
-                    "name": "PASTA 3/4",
+                    "name": "PASTA",
                     "price": "5.5",
-                    "details": ""
+                    "details": "Porzione intera"
                     },{
-                    "name": "PASTA 1/2",
+                    "name": "PASTA",
                     "price": "5",
-                    "details": ""
+                    "details": "Mezza porzione"
                     },{
-                    "name": "ZUPPA/PASSATA DI LEGUMI",
+                    "name": "ZUPPA DI LEGUMI",
                     "price": "6",
                     "details": ""
                     },{
-                    "name": "PIADINA/PANINO GG",
+                    "name": "PIADINA/PANINO",
                     "price": "6",
-                    "details": ""
+                    "details": "Menu del giorno"
                     },{
-                    "name": "PANINI PIU' PICCOLI",
+                    "name": "PANINI",
                     "price": "4.5",
-                    "details": ""
+                    "details": "Piccoli"
                     },{
                     "name": "PARMIGIANA",
                     "price": "7",
                     "details": ""
                     },{
-                    "name": "PASTICCIO CARNE/VERDURE",
+                    "name": "PASTICCIO",
                     "price": "7",
-                    "details": ""
+                    "details": "Di carne o verdure"
                     },{
-                    "name": "INSALATA INTERA — CON ACCIUGHE +1",
-                    "price": "6",
-                    "details": ""
+                    "name": "INSALATA",
+                    "price": "6-7",
+                    "details": "Acciughe a scelta"
                     },
                     {
-                    "name": "INSALATA 3/4",
+                    "name": "INSALATA",
                     "price": "5",
-                    "details": ""
+                    "details": "Tre quarti porzione"
                     },{
                     "name": "PIATTO FREDDO",
                     "price": "8-10",
                     "details": ""
                     },{
-                    "name": "POLPETTE E VERDURE / FESA di TACCHINO",
+                    "name": "POLPETTE O FESA DI TACCHINO",
                     "price": "7",
-                    "details": ""
-                    },{
-                    "name": "PF: CAPRESE CON MOZZ NORMALE",
+                    "details": "Con verdure"
+                    },
+                    {
+                    "name": "CAPRESE",
                     "price": "7",
-                    "details": ""
+                    "details": "Mozzarella normale"
                     },{
-                    "name": "PF: CAPRESE CON BUFALA",
+                    "name": "CAPRESE",
                     "price": "8",
-                    "details": ""
+                    "details": "Mozzarella di Bufala"
                     }
                 ]},
+                { "category": "aperitif",
+                "label": "Aperitivi",
+                "image": "cocktailDood2.png",
+                    "items": [
+                        {
+                            "name": "SPRITZ BITTER",
+                            "price": "4",
+                            "details": "Campari, Aperol, Cynar etc"
+                            },
+                            {
+                                "name": "PROSECCO DELLA CASA",
+                                "price": "2.5",
+                                "details": "Alla spina, ghiaccio e limone a scelta"
+                                },
+                                {
+                                    "name": "PROSECCO BOTTIGLIA",
+                                    "price": "3.5",
+                                    "details": ""
+                                    },
+                                    {
+                                        "name": "HUGO",
+                                        "price": "4",
+                                        "details": ""
+                                        },
+                                    {
+                                        "name": "GIORGIONE",
+                                        "price": "4",
+                                        "details": "Spritz Campari senza limone"
+                                        },
+                                        {
+                                            "name": "CYNAR con acqua",
+                                            "price": "2.5",
+                                            "details": "Piccolo"
+                                            },
+                                            {
+                                                "name": "CYNAR con acqua",
+                                                "price": "3.5",
+                                                "details": "Grande"
+                                                },
+                                                {
+                                                    "name": "SPRITZ BIANCO",
+                                                    "price": "3",
+                                                    "details": "In calice"
+                                                    },
+                                                    {
+                                                        "name": "SPRITZ BIANCO",
+                                                        "price": "3.5",
+                                                        "details": "In tumbler (grande)"
+                                                        },
+                                                        {
+                                                            "name": "AMARI",
+                                                            "price": "Da 3.5",
+                                                            "details": "Montenegro, Braulio, Jager etc"
+                                                            },
+                                                            {
+                                                                "name": "Grappe e distillati",
+                                                                "price": "-",
+                                                                "details": "Da degustazione"
+                                                                }
+                                                               
+                                                                    ]},
                 { "category": "drinks",
                 "label": "Drinks",
                 "image": "cocktail5.png",
@@ -109,7 +171,7 @@
                                                     {
                                                         "name": "LONG DRINK PREMIUM",
                                                         "price": "Da 8",
-                                                        "details": "I grandi classici, con i migliori distillati"
+                                                        "details": "I nostri migliori distillati"
                                                         }
                                                     ]},
                                                     { "category": "whiteWine",
@@ -244,92 +306,70 @@
                                                                                                                                                 }
                                                                                                                                                 
                                                                                                                             ]},
-            { "category": "bowls",
-                "label": "Caraffe",
-                "image": "pitcher.png",
-                    "items": [
-                        {
-                            "name": "PROSECCO",
-                            "price": "7",
-                            "details": "0.5 litri"
-                            },
-                            {
-                                "name": "PROSECCO",
-                                "price": "15",
-                                "details": "1 litro"
-                                },
-                                {
-                                    "name": "PROSECCO",
-                                    "price": "20",
-                                    "details": "1.5 litri"
-                                    },
-                                {
-                                    "name": "SPRITZ",
-                                    "price": "15",
-                                    "details": "1 litro"
-                                    },
-                                    {
-                                        "name": "SPRITZ",
-                                        "price": "20",
-                                        "details": "1.5 litri"
-                                        },
-                                        {
-                                            "name": "SPRITZ",
-                                            "price": "25",
-                                            "details": "2 litri"
-                                            },
-                                    {
-                                        "name": "BIRRA BIONDA",
-                                        "price": "13",
-                                        "details": "1 litro"
-                                        },
-                                        {
-                                            "name": "BIRRA IPA",
-                                            "price": "15",
-                                            "details": "1 litro"
-                                            },
-                                                    {
-                                                        "name": "BIRRA BIONDA",
-                                                        "price": "15",
-                                                        "details": "1.5 litri"
-                                                        },
-                                                        {
-                                                            "name": "BIRRA IPA",
-                                                            "price": "17",
-                                                            "details": "1.5 litri"
-                                                            },
-                                                          
-                                                                {
-                                                                    "name": "BIRRA BIONDA",
-                                                                    "price": "18",
-                                                                    "details": "2 litri"
-                                                                    },
-                                                                    {
-                                                                        "name": "BIRRA IPA",
-                                                                        "price": "20",
-                                                                        "details": "2 litri"
-                                                                        }
+                                                                                                                            { "category": "food",
+                                                                                                                            "label": "Cibo",
+                                                                                                                            "image": "kitchen.png",
+                                                                                                                                "items": [       
+                                                                                                                                    {
+                                                                                                                                        "name": "TRAMEZZINI",
+                                                                                                                                        "price": "2",
+                                                                                                                                        "details": ""
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "name": "PANINETTI",
+                                                                                                                                            "price": "1.5",
+                                                                                                                                            "details": "Gusti vari"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "name": "POLPETTE",
+                                                                                                                                                "price": "2.5",
+                                                                                                                                                "details": ""
+                                                                                                                                                },
+                                                                                                                                                {
+                                                                                                                                                    "name": "MOZZARELLE IN CARROZZA",
+                                                                                                                                                    "price": "3.5",
+                                                                                                                                                    "details": ""
+                                                                                                                                                    },
+                                                                                                                                                    {
+                                                                                                                                                        "name": "ALETTE O COSCIOTTI POLLO",
+                                                                                                                                                        "price": "1",
+                                                                                                                                                        "details": "Al pezzo"
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "name": "CROSTINO CON BACCALA' MANTECATO",
+                                                                                                                                                            "price": "2.5",
+                                                                                                                                                            "details": ""
+                                                                                                                                                            },
+                                                                                                                                                            {
+                                                                                                                                                                "name": "PANE CON FOLPETTI BUSARA",
+                                                                                                                                                                "price": "2.5",
+                                                                                                                                                                "details": ""
+                                                                                                                                                                },
+                                                                                                                                                                {
+                                                                                                                                                                    "name": "PANE ALLA PARMIGIANA",
+                                                                                                                                                                    "price": "2.5",
+                                                                                                                                                                    "details": ""
+                                                                                                                                                                    } ] },    
 
-                    ] },
 
                     { "category": "anal",
                 "label": "Analcolici",
-                "image": "soda-can.png",
+                "image": "soda-can2.png",
                     "items": [
                         {
-                            "name": "BICCHIERE ACQUA",
+                            "name": "ACQUA",
                             "price": "0.5",
-                            "details": ""
+                            "details": "Bicchiere"
                             },
                             {
-                                "name": "BOTTIGLIA ACQUA",
+                                "name": "ACQUA",
                                 "price": "1",
-                                "details": "Piccola"
+                                "details": "Bottiglia da 0.5 litri"
                                 },
                                 {
-                                    "name": "BOTTIGLIA ACQUA",
+                                    "name": "ACQUA",
                                     "price": "2",
-                                    "details": "Grande"
+                                    "details": "Bottiglia da 1 litro"
                                     },
                                     {
                                         "name": "FANTA",
@@ -339,7 +379,7 @@
                                         {
                                             "name": "COCA-COLA",
                                             "price": "3",
-                                            "details": "In lattina, anche zero"
+                                            "details": "In lattina, anche Zero"
                                             },
                                             {
                                                 "name": "COCA-COLA",
@@ -372,9 +412,9 @@
                                                                     "details": ""
                                                                     },
                                                                     {
-                                                                        "name": "SPREMUTA DI ARANCE FRESCA",
+                                                                        "name": "SPREMUTA DI ARANCE",
                                                                         "price": "3.5",
-                                                                        "details": ""
+                                                                        "details": "Spremute al momento"
                                                                         },
                                                                         {
                                                                             "name": "ACQUA E MENTA",
@@ -394,12 +434,12 @@
                                                                                     {
                                                                                         "name": "GINGER BEER",
                                                                                         "price": "3.5",
-                                                                                        "details": "Bicchiere grande"
+                                                                                        "details": ""
                                                                                         },
                                                                                         {
-                                                                                            "name": "DRINK ANALCOLICI ALLA FRUTTA",
+                                                                                            "name": "DRINK ANALCOLICI",
                                                                                             "price": "4",
-                                                                                            "details": ""
+                                                                                            "details": "A base di frutta"
                                                                                             },
                                                                                             {
                                                                                                 "name": "CAMPARI SODA",
@@ -417,7 +457,7 @@
     "image": "drink2.png",
         "items": [
             {
-                "name": "CAFFE' ESPRESSO/LISCIO",
+                "name": "CAFFE' ESPRESSO",
                 "price": "1.3",
                 "details": ""
                 },
@@ -482,112 +522,77 @@
                                                                 "details": ""
                                                                 }
                                                             ]},
-                                                            { "category": "aperitif",
-                                                            "label": "Aperitivi",
-                                                            "image": "cocktailDood2.png",
+                                                            { "category": "bowls",
+                                                            "label": "Caraffe",
+                                                            "image": "pitcher.png",
                                                                 "items": [
                                                                     {
-                                                                        "name": "SPRITZ BITTER",
-                                                                        "price": "4",
-                                                                        "details": "CAMPARI, APEROL, CYNAR, SELECT ECC"
+                                                                        "name": "PROSECCO",
+                                                                        "price": "7",
+                                                                        "details": "0.5 litri"
                                                                         },
                                                                         {
-                                                                            "name": "PROSECCO SPINA",
-                                                                            "price": "2.5",
-                                                                            "details": "Vino della casa, ghiaccio e limone a scelta"
+                                                                            "name": "PROSECCO",
+                                                                            "price": "15",
+                                                                            "details": "1 litro"
                                                                             },
                                                                             {
-                                                                                "name": "PROSECCO BOTTIGLIA",
-                                                                                "price": "3.5",
-                                                                                "details": ""
+                                                                                "name": "PROSECCO",
+                                                                                "price": "20",
+                                                                                "details": "1.5 litri"
+                                                                                },
+                                                                            {
+                                                                                "name": "SPRITZ",
+                                                                                "price": "15",
+                                                                                "details": "1 litro"
                                                                                 },
                                                                                 {
-                                                                                    "name": "GIORGIONE",
-                                                                                    "price": "4",
-                                                                                    "details": "Spritz Campari senza limone"
+                                                                                    "name": "SPRITZ",
+                                                                                    "price": "20",
+                                                                                    "details": "1.5 litri"
                                                                                     },
                                                                                     {
-                                                                                        "name": "CYNAR con acqua",
-                                                                                        "price": "2.5",
-                                                                                        "details": "Piccolo"
+                                                                                        "name": "SPRITZ",
+                                                                                        "price": "25",
+                                                                                        "details": "2 litri"
                                                                                         },
-                                                                                        {
-                                                                                            "name": "CYNAR con acqua",
-                                                                                            "price": "3.5",
-                                                                                            "details": "Grande"
-                                                                                            },
-                                                                                            {
-                                                                                                "name": "SPRITZ BIANCO",
-                                                                                                "price": "3",
-                                                                                                "details": "In calice"
-                                                                                                },
+                                                                                {
+                                                                                    "name": "BIRRA BIONDA",
+                                                                                    "price": "13",
+                                                                                    "details": "1 litro"
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "BIRRA IPA",
+                                                                                        "price": "15",
+                                                                                        "details": "1 litro"
+                                                                                        },
                                                                                                 {
-                                                                                                    "name": "SPRITZ BIANCO",
-                                                                                                    "price": "3.5",
-                                                                                                    "details": "In tumbler (grande)"
+                                                                                                    "name": "BIRRA BIONDA",
+                                                                                                    "price": "15",
+                                                                                                    "details": "1.5 litri"
                                                                                                     },
                                                                                                     {
-                                                                                                        "name": "AMARI",
-                                                                                                        "price": "Da 3.5",
-                                                                                                        "details": "In calice"
+                                                                                                        "name": "BIRRA IPA",
+                                                                                                        "price": "17",
+                                                                                                        "details": "1.5 litri"
                                                                                                         },
-                                                                                                        {
-                                                                                                            "name": "Grappe, gin, tutto il resto",
-                                                                                                            "price": "-",
-                                                                                                            "details": "Consultare cartellino"
-                                                                                                            },
+                                                                                                      
                                                                                                             {
-                                                                                                                "name": "HUGO",
-                                                                                                                "price": "4",
-                                                                                                                "details": ""
-                                                                                                                }
-                                                                                                                ]},
+                                                                                                                "name": "BIRRA BIONDA",
+                                                                                                                "price": "18",
+                                                                                                                "details": "2 litri"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "name": "BIRRA IPA",
+                                                                                                                    "price": "20",
+                                                                                                                    "details": "2 litri"
+                                                                                                                    }
+                                            
+                                                                ] }
+                                                           
                                                                                                                 
         
-                                                                                                                { "category": "food",
-                                                                                                                "label": "Cibo",
-                                                                                                                "image": "kitchen.png",
-                                                                                                                    "items": [       
-                                                                                                                        {
-                                                                                                                            "name": "TRAMEZZINI",
-                                                                                                                            "price": "2",
-                                                                                                                            "details": ""
-                                                                                                                            },
-                                                                                                                            {
-                                                                                                                                "name": "PANINETTI",
-                                                                                                                                "price": "1.5",
-                                                                                                                                "details": "Gusti vari"
-                                                                                                                                },
-                                                                                                                                {
-                                                                                                                                    "name": "POLPETTE",
-                                                                                                                                    "price": "2.5",
-                                                                                                                                    "details": ""
-                                                                                                                                    },
-                                                                                                                                    {
-                                                                                                                                        "name": "MOZZARELLE IN CARROZZA",
-                                                                                                                                        "price": "3.5",
-                                                                                                                                        "details": ""
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "name": "ALETTE/COSCIOTTI POLLO",
-                                                                                                                                            "price": "1",
-                                                                                                                                            "details": "Al pezzo"
-                                                                                                                                            },
-                                                                                                                                            {
-                                                                                                                                                "name": "FETTINA/CROSTINO CON BACCALA' MANTECATO",
-                                                                                                                                                "price": "2.5",
-                                                                                                                                                "details": ""
-                                                                                                                                                },
-                                                                                                                                                {
-                                                                                                                                                    "name": "FETTINA PANE CON FOLPETTI BUSARA",
-                                                                                                                                                    "price": "2.5",
-                                                                                                                                                    "details": ""
-                                                                                                                                                    },
-                                                                                                                                                    {
-                                                                                                                                                        "name": "FETTINA PANE ALLA PARMIGIANA",
-                                                                                                                                                        "price": "2.5",
-                                                                                                                                                        "details": ""
-                                                                                                                                                        } ] }                                                          
+                                                                                                                                                                  
                                         
     ]
 
