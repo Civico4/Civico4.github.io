@@ -130,12 +130,41 @@ function scrollToTop() {
   });
 }
 
+
 function changeText(element) {
   element.style.opacity = 0; // Fade out
+  const originalText = "We ♥ Aron";
+  const newText = `Wifi password: ${db.wifiPassword}`;
+  const isChangingToSecret = element.dataset.state === "0";
+
   setTimeout(() => {
-      element.textContent = element.textContent === "We ♥ Aron" ? `Wifi password: ${db.wifiPassword}` : "We ♥ Aron";
-      element.style.opacity = 1; // Fade in
-  }, 500);
+    element.textContent = isChangingToSecret ? originalText : newText;
+    element.dataset.state = isChangingToSecret ? "1" : "0";
+    element.style.opacity = 1; // Fade in
+
+    if (!isChangingToSecret) {
+      console.log("discovered secret");
+        showHeart(element);
+    }
+}, 500);
+}
+
+function showHeart(element) {
+  const heart = document.createElement("span");
+  heart.textContent = "❤️";
+  heart.classList.add("heart");
+  document.body.appendChild(heart);
+  
+ // const rect = element.getBoundingClientRect();
+  const scrollY = window.scrollY || document.documentElement.scrollTop;
+ // console.log(scrollY);
+  const scrollX = window.scrollX || document.documentElement.scrollLeft;
+  
+  heart.style.left = `${element.offsetLeft + element.offsetWidth / 2 - 15 + scrollX}px`;
+ // heart.style.top = "2000px";
+  heart.style.top = `${element.offsetTop + 60}px`;
+  
+  setTimeout(() => heart.remove(), 2000);
 }
 
 

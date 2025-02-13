@@ -739,6 +739,34 @@ body {
 
 .easter {
   transition: opacity 0.5s ease-in-out;
+  position: relative;
+}
+
+.heart {
+  position: absolute;
+  font-size: 30px;
+  color: pink;
+  animation: floatUp 2s ease-in-out forwards;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  25% {
+    transform: translate(-10px, -30px);
+  }
+  50% {
+    transform: translate(10px, -60px);
+  }
+  75% {
+    transform: translate(-10px, -90px);
+  }
+  100% {
+    transform: translate(10px, -120px);
+    opacity: 0;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

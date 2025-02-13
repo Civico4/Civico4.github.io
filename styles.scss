@@ -653,6 +653,24 @@ body { font-family: 'spacecraft', sans-serif;
 			margin-top: 8px
 		}
 
+		////* easter egg stuff *///
+
 		.easter {
 			transition: opacity 0.5s ease-in-out;
+			position: relative;
 		}
+
+		.heart {
+            position: absolute;
+            font-size: 30px;
+            color: pink;
+            animation: floatUp 2s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+        }
+        @keyframes floatUp {
+            0% { transform: translateX(0) translateY(0); opacity: 1; }
+            20% { transform: translateX(-8px) translateY(-25px); }
+            40% { transform: translateX(8px) translateY(-50px); }
+            60% { transform: translateX(-6px) translateY(-75px); }
+            80% { transform: translateX(6px) translateY(-100px); }
+            100% { transform: translateX(0) translateY(-120px); opacity: 0; }
+        }
