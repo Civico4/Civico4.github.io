@@ -130,4 +130,12 @@ function scrollToTop() {
   });
 }
 
+function changeText(element) {
+  element.style.opacity = 0; // Fade out
+  setTimeout(() => {
+      element.textContent = element.textContent === "We ♥ Aron" ? `Wifi password: ${db.wifiPassword}` : "We ♥ Aron";
+      element.style.opacity = 1; // Fade in
+  }, 500);
+}
+
 
