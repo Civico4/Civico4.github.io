@@ -3,71 +3,6 @@
 {
     "wifiPassword": "Bodac417" ,
     "menu": [
-        { "category": "lunch",
-            "label": "PRANZO",
-            "image": "foodDood.png",
-                "items": [
-                    {
-                    "name": "PASTA",
-                    "price": "6",
-                    "details": "Porzione abbondante"
-                    },
-                   {
-                    "name": "PASTA",
-                    "price": "5.5",
-                    "details": "Porzione intera"
-                    },{
-                    "name": "PASTA",
-                    "price": "5",
-                    "details": "Mezza porzione"
-                    },{
-                    "name": "ZUPPA DI LEGUMI",
-                    "price": "6",
-                    "details": ""
-                    },{
-                    "name": "PIADINA/PANINO",
-                    "price": "6",
-                    "details": "Menu del giorno"
-                    },{
-                    "name": "PANINI",
-                    "price": "4.5",
-                    "details": "Piccoli"
-                    },{
-                    "name": "PARMIGIANA",
-                    "price": "7",
-                    "details": ""
-                    },{
-                    "name": "PASTICCIO",
-                    "price": "7",
-                    "details": "Di carne o verdure"
-                    },{
-                    "name": "INSALATA",
-                    "price": "6-7",
-                    "details": "Acciughe a scelta"
-                    },
-                    {
-                    "name": "INSALATA",
-                    "price": "5",
-                    "details": "Tre quarti porzione"
-                    },{
-                    "name": "PIATTO FREDDO",
-                    "price": "8-10",
-                    "details": ""
-                    },{
-                    "name": "POLPETTE O FESA DI TACCHINO",
-                    "price": "7",
-                    "details": "Con verdure"
-                    },
-                    {
-                    "name": "CAPRESE",
-                    "price": "7",
-                    "details": "Mozzarella normale"
-                    },{
-                    "name": "CAPRESE",
-                    "price": "8",
-                    "details": "Mozzarella di Bufala"
-                    }
-                ]},
                 { "category": "aperitif",
                 "label": "Aperitivi",
                 "image": "cocktailDood2.png",
@@ -85,18 +20,14 @@
                                 {
                                     "name": "PROSECCO BOTTIGLIA",
                                     "price": "3.5",
-                                    "details": ""
+                                    "details": "In calice"
                                     },
                                     {
                                         "name": "HUGO",
                                         "price": "4",
                                         "details": ""
                                         },
-                                    {
-                                        "name": "GIORGIONE",
-                                        "price": "4",
-                                        "details": "Spritz Campari senza limone"
-                                        },
+        
                                         {
                                             "name": "CYNAR con acqua",
                                             "price": "2.5",
@@ -116,17 +47,8 @@
                                                         "name": "SPRITZ BIANCO",
                                                         "price": "3.5",
                                                         "details": "In tumbler (grande)"
-                                                        },
-                                                        {
-                                                            "name": "AMARI",
-                                                            "price": "Da 3.5",
-                                                            "details": "Montenegro, Braulio, Jager etc"
-                                                            },
-                                                            {
-                                                                "name": "Grappe e distillati",
-                                                                "price": "-",
-                                                                "details": "Da degustazione"
-                                                                }
+                                                        }
+                                                        
                                                                
                                                                     ]},
                 { "category": "drinks",
@@ -164,16 +86,93 @@
                                                 "details": "Bitter Campari"
                                                 },
                                                 {
-                                                    "name": "LONG DRINK",
+                                                    "name": "SOUR",
                                                     "price": "7",
                                                     "details": "I grandi classici"
                                                     },
                                                     {
                                                         "name": "LONG DRINK PREMIUM",
                                                         "price": "Da 8",
-                                                        "details": "I nostri migliori distillati"
-                                                        }
+                                                        "details": "Con i nostri migliori distillati"
+                                                        },
+                                                        {
+                                                            "name": "AMARI E DISTILLATI",
+                                                            "price": "Da 3.5",
+                                                            "details": ""
+                                                            },
+                                                            {
+                                                                "name": "GRAPPE",
+                                                                "price": "-",
+                                                                "details": "Da degustazione"
+                                                                }
                                                     ]},
+                                                    { "category": "beer",
+                                                    "label": "BIRRE",
+                                                    "image": "beer1.png",
+                                                        "items": [
+                                                            {
+                                                                "name": "CARLSBERG bionda",
+                                                                "price": "3",
+                                                                "details": "Piccola, 5%"
+                                                                },
+                                                                {
+                                                                    "name": "CARLSBERG bionda",
+                                                                    "price": "5",
+                                                                    "details": "Media, 5%"
+                                                                    },
+                                                                    {
+                                                                        "name": "JUICY IPA",
+                                                                        "price": "3.5",
+                                                                        "details": "Piccola, 4.8%"
+                                                                        },
+                                                                        {
+                                                                            "name": "JUICY IPA",
+                                                                            "price": "5.5",
+                                                                            "details": "Media, 4.8%"
+                                                                            },
+                                                                            {
+                                                                                "name": "JACKIMA IPA",
+                                                                                "price": "3.5",
+                                                                                "details": "Piccola, 6.5%"
+                                                                                },
+                                                                                {
+                                                                                    "name": "JACKIMA IPA",
+                                                                                    "price": "5.5",
+                                                                                    "details": "Media, 6.5%"
+                                                                                    },
+                                                                                    {
+                                                                                        "name": "BROOKLIN stonewall inn IPA",
+                                                                                        "price": "3.5",
+                                                                                        "details": "Piccola, 4.6%"
+                                                                                        },
+                                                                                        {
+                                                                                            "name": "BROOKLIN stonewall inn IPA",
+                                                                                            "price": "5.5",
+                                                                                            "details": "Media, 4.6%"
+                                                                                            },
+                                                                                            {
+                                                                                                "name": "BROOKLIN lager",
+                                                                                                "price": "3.5",
+                                                                                                "details": "Piccola, 5.2%"
+                                                                                                },
+                                                                                            {
+                                                                                                "name": "BROOKLIN lager",
+                                                                                                "price": "5.5",
+                                                                                                "details": "Media, 5.2%"
+                                                                                                },
+                                                                                                {
+                                                                                                    "name": "RAISE BREWING artigianali",
+                                                                                                    "price": "4",
+                                                                                                    "details": "Piccola, a rotazione"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "name": "RAISE BREWING artigianali",
+                                                                                                        "price": "6",
+                                                                                                        "details": "Media, a rotazione"
+                                                                                                        }
+                                                                                
+                                                                
+                                                                                                            ]},
                             
                                                                                         { "category": "redWine",
                                                                                         "label": "Rossi",
@@ -186,7 +185,7 @@
                                                                                                     },
                                                                                                     {
                                                                                                         "name": "KABERLO'",
-                                                                                                        "price": "14",
+                                                                                                        "price": "16",
                                                                                                         "details": "Bottiglia"
                                                                                                         },
                                                                                                         {
@@ -196,7 +195,7 @@
                                                                                                             },
                                                                                                             {
                                                                                                                 "name": "PRIMITIVO",
-                                                                                                                "price": "15",
+                                                                                                                "price": "18",
                                                                                                                 "details": "Bottiglia"
                                                                                                                 },
                                                                                                                 {
@@ -206,7 +205,7 @@
                                                                                                                     },
                                                                                                                     {
                                                                                                                         "name": "REFOSCO",
-                                                                                                                        "price": "15",
+                                                                                                                        "price": "18",
                                                                                                                         "details": "Bottiglia"
                                                                                                                         },
                                                                                                                         {
@@ -216,29 +215,30 @@
                                                                                                                             },
                                                                                                                             {
                                                                                                                                 "name": "SYRAH",
-                                                                                                                                "price": "14",
+                                                                                                                                "price": "16",
                                                                                                                                 "details": "Bottiglia"
                                                                                                                                 },
                                                                                                                                 {
-                                                                                                                                    "name": "RIPASSO",
+                                                                                                                                    "name": "VALPOLICELLA",
+                                                                                                                                    "price": "3.5",
+                                                                                                                                    "details": "Calice"
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "name": "VALPOLICELLA",
+                                                                                                                                        "price": "20",
+                                                                                                                                        "details": "Bottiglia"
+                                                                                                                                        },
+                                                                                                                                {
+                                                                                                                                    "name": "VALP. RIPASSO",
                                                                                                                                     "price": "4",
                                                                                                                                     "details": "Calice"
                                                                                                                                     },
                                                                                                                                     {
-                                                                                                                                        "name": "RIPASSO",
-                                                                                                                                        "price": "18",
+                                                                                                                                        "name": "VALP. RIPASSO",
+                                                                                                                                        "price": "22",
                                                                                                                                         "details": "Bottiglia"
-                                                                                                                                        },
-                                                                                                                                        {
-                                                                                                                                            "name": "VALPOLICELLA",
-                                                                                                                                            "price": "3.5",
-                                                                                                                                            "details": "Calice"
-                                                                                                                                            },
-                                                                                                                                            {
-                                                                                                                                                "name": "VALPOLICELLA",
-                                                                                                                                                "price": "15",
-                                                                                                                                                "details": "Bottiglia"
-                                                                                                                                                }
+                                                                                                                                        }
+                                                                                                                                        
                                                                                                                                                 
                                                                                                                             ]},
                                                                                                                             { "category": "whiteWine",
@@ -252,7 +252,7 @@
                                                                                                                                         },
                                                                                                                                         {
                                                                                                                                             "name": "TAI",
-                                                                                                                                            "price": "14",
+                                                                                                                                            "price": "16",
                                                                                                                                             "details": "Bottiglia"
                                                                                                                                             },
                                                                                                                                             {
@@ -262,7 +262,7 @@
                                                                                                                                                 },
                                                                                                                                                 {
                                                                                                                                                     "name": "SAUVIGNON",
-                                                                                                                                                    "price": "14",
+                                                                                                                                                    "price": "16",
                                                                                                                                                     "details": "Bottiglia"
                                                                                                                                                     },
                                                                                                                                                     {
@@ -272,7 +272,7 @@
                                                                                                                                                         },
                                                                                                                                                         {
                                                                                                                                                             "name": "MALVASIA",
-                                                                                                                                                            "price": "15",
+                                                                                                                                                            "price": "18",
                                                                                                                                                             "details": "Bottiglia"
                                                                                                                                                             },
                                                                                                                                                             {
@@ -282,7 +282,7 @@
                                                                                                                                                                 },
                                                                                                                                                                 {
                                                                                                                                                                     "name": "RIBOLLA GIALLA",
-                                                                                                                                                                    "price": "15",
+                                                                                                                                                                    "price": "18",
                                                                                                                                                                     "details": "Bottiglia"
                                                                                                                                                                     },
                                                                                                                                                                     {
@@ -292,7 +292,7 @@
                                                                                                                                                                         },
                                                                                                                                                                         {
                                                                                                                                                                             "name": "FRIULANO",
-                                                                                                                                                                            "price": "15",
+                                                                                                                                                                            "price": "18",
                                                                                                                                                                             "details": "Bottiglia"
                                                                                                                                                                             },
                                                                                                                                                                             {
@@ -302,13 +302,13 @@
                                                                                                                                                                                 },
                                                                                                                                                                                 {
                                                                                                                                                                                     "name": "CATARRATTO",
-                                                                                                                                                                                    "price": "15",
+                                                                                                                                                                                    "price": "20",
                                                                                                                                                                                     "details": "Bottiglia"
                                                                                                                                                                                     }
                                                                                                                                                                                     
                                                                                                                                                                 ]},
                                                                                                                             { "category": "food",
-                                                                                                                            "label": "Cibo",
+                                                                                                                            "label": "FOOD",
                                                                                                                             "image": "kitchen.png",
                                                                                                                                 "items": [       
                                                                                                                                     {
@@ -316,43 +316,104 @@
                                                                                                                                         "price": "2",
                                                                                                                                         "details": ""
                                                                                                                                         },
+                                                                                                                                        
                                                                                                                                         {
                                                                                                                                             "name": "PANINETTI",
                                                                                                                                             "price": "1.5",
                                                                                                                                             "details": "Gusti vari"
                                                                                                                                             },
+                                                                                                                                        
                                                                                                                                             {
                                                                                                                                                 "name": "POLPETTE",
                                                                                                                                                 "price": "2.5",
                                                                                                                                                 "details": ""
                                                                                                                                                 },
                                                                                                                                                 {
-                                                                                                                                                    "name": "MOZZARELLE IN CARROZZA",
-                                                                                                                                                    "price": "3.5",
-                                                                                                                                                    "details": ""
+                                                                                                                                                    "name": "PIADINA",
+                                                                                                                                                    "price": "da 5",
+                                                                                                                                                    "details": "Gusti vari"
                                                                                                                                                     },
                                                                                                                                                     {
-                                                                                                                                                        "name": "ALETTE O COSCIOTTI POLLO",
-                                                                                                                                                        "price": "1",
-                                                                                                                                                        "details": "Al pezzo"
-                                                                                                                                                        },
-                                                                                                                                                        {
-                                                                                                                                                            "name": "CROSTINO CON BACCALA' MANTECATO",
-                                                                                                                                                            "price": "2.5",
-                                                                                                                                                            "details": ""
-                                                                                                                                                            },
-                                                                                                                                                            {
-                                                                                                                                                                "name": "PANE CON FOLPETTI BUSARA",
-                                                                                                                                                                "price": "2.5",
-                                                                                                                                                                "details": ""
-                                                                                                                                                                },
-                                                                                                                                                                {
-                                                                                                                                                                    "name": "PANE ALLA PARMIGIANA",
-                                                                                                                                                                    "price": "2.5",
-                                                                                                                                                                    "details": ""
-                                                                                                                                                                    } ] },    
+                                                                                                                                                        "name": "PANINI",
+                                                                                                                                                        "price": "da 5",
+                                                                                                                                                        "details": "Gusti vari"
+                                                                                                                                                        }
+                                                                                                                                            
+                                                                                                                                                    
+                                                                                                                                                     
+                                                                                                                                                            
+                                                                                                                                                         ] },    
 
-
+                                                                                                                                                         { "category": "coffee",
+                                                                                                                                                         "label": "Caffetteria",
+                                                                                                                                                         "image": "drink2.png",
+                                                                                                                                                             "items": [
+                                                                                                                                                                 {
+                                                                                                                                                                     "name": "CAFFÈ ESPRESSO",
+                                                                                                                                                                     "price": "1.3",
+                                                                                                                                                                     "details": ""
+                                                                                                                                                                     },
+                                                                                                                                                                     {
+                                                                                                                                                                         "name": "CAFFÈ LUNGO",
+                                                                                                                                                                         "price": "1.3",
+                                                                                                                                                                         "details": ""
+                                                                                                                                                                         },
+                                                                                                                                                                         {
+                                                                                                                                                                             "name": "CAFFÈ MACCHIATO",
+                                                                                                                                                                             "price": "1.3",
+                                                                                                                                                                             "details": "Caldo o freddo"
+                                                                                                                                                                             },
+                                                                                                                                                                             {
+                                                                                                                                                                                 "name": "CAFFÈ AMERICANO",
+                                                                                                                                                                                 "price": "1.3",
+                                                                                                                                                                                 "details": ""
+                                                                                                                                                                                 },
+                                                                                                                                                                                 {
+                                                                                                                                                                                     "name": "CAFFÈ DECA",
+                                                                                                                                                                                     "price": "1.5",
+                                                                                                                                                                                     "details": ""
+                                                                                                                                                                                     },
+                                                                                                                                                                                     {
+                                                                                                                                                                                         "name": "ORZO",
+                                                                                                                                                                                         "price": "1.5",
+                                                                                                                                                                                         "details": ""
+                                                                                                                                                                                         },
+                                                                                                                                                                                         {
+                                                                                                                                                                                             "name": "MACCHIATONE",
+                                                                                                                                                                                             "price": "1.5",
+                                                                                                                                                                                             "details": ""
+                                                                                                                                                                                             },
+                                                                                                                                                                                             {
+                                                                                                                                                                                                 "name": "CAPPUCCINO",
+                                                                                                                                                                                                 "price": "1.6",
+                                                                                                                                                                                                 "details": ""
+                                                                                                                                                                                                 },
+                                                                                                                                                                                                 {
+                                                                                                                                                                                                     "name": "CAPPUCCINO DECA",
+                                                                                                                                                                                                     "price": "1.8",
+                                                                                                                                                                                                     "details": ""
+                                                                                                                                                                                                     },
+                                                                                                                                                                                                     {
+                                                                                                                                                                                                         "name": "CAPPUCCINO ORZO",
+                                                                                                                                                                                                         "price": "1.8",
+                                                                                                                                                                                                         "details": ""
+                                                                                                                                                                                                         },
+                                                                                                                                                                                                         {
+                                                                                                                                                                                                             "name": "CAFFÈ CORRETTO",
+                                                                                                                                                                                                             "price": "1.9",
+                                                                                                                                                                                                             "details": ""
+                                                                                                                                                                                                             },
+                                                                                                                                                                                                             {
+                                                                                                                                                                                                                 "name": "CAFFÈ SHAKERATO",
+                                                                                                                                                                                                                 "price": "2.5",
+                                                                                                                                                                                                                 "details": ""
+                                                                                                                                                                                                                 },
+                                                                                                                                                                                                                 {
+                                                                                                                                                                                                                     "name": "CAFFÈ \"ALLA PUGLIESE\"",
+                                                                                                                                                                                                                     "price": "1.9",
+                                                                                                                                                                                                                     "details": ""
+                                                                                                                                                                                                                     }
+                                                                                                                                                                                                                 ]},
                     { "category": "anal",
                 "label": "Analcolici",
                 "image": "soda-can2.png",
@@ -382,11 +443,6 @@
                                             "price": "3",
                                             "details": "In lattina, anche Zero"
                                             },
-                                            {
-                                                "name": "COCA-COLA",
-                                                "price": "4",
-                                                "details": "In bottiglia di vetro"
-                                                },
                                                 {
                                                     "name": "THE PESCA/LIMONE",
                                                     "price": "3",
@@ -452,77 +508,10 @@
                                                     
 
     },
+
+   
     
-    { "category": "coffee",
-    "label": "Caffetteria",
-    "image": "drink2.png",
-        "items": [
-            {
-                "name": "CAFFE' ESPRESSO",
-                "price": "1.3",
-                "details": ""
-                },
-                {
-                    "name": "CAFFE' LUNGO",
-                    "price": "1.3",
-                    "details": ""
-                    },
-                    {
-                        "name": "CAFFE' MACCHIATO",
-                        "price": "1.3",
-                        "details": "Caldo o freddo"
-                        },
-                        {
-                            "name": "CAFFE' AMERICANO",
-                            "price": "1.3",
-                            "details": ""
-                            },
-                            {
-                                "name": "CAFFE' DECA",
-                                "price": "1.5",
-                                "details": ""
-                                },
-                                {
-                                    "name": "ORZO",
-                                    "price": "1.5",
-                                    "details": ""
-                                    },
-                                    {
-                                        "name": "MACCHIATONE",
-                                        "price": "1.5",
-                                        "details": ""
-                                        },
-                                        {
-                                            "name": "CAPPUCCINO",
-                                            "price": "1.6",
-                                            "details": ""
-                                            },
-                                            {
-                                                "name": "CAPPUCCINO DECA",
-                                                "price": "1.8",
-                                                "details": ""
-                                                },
-                                                {
-                                                    "name": "CAPPUCCINO ORZO",
-                                                    "price": "1.8",
-                                                    "details": ""
-                                                    },
-                                                    {
-                                                        "name": "CAFFE' CORRETTO",
-                                                        "price": "1.9",
-                                                        "details": ""
-                                                        },
-                                                        {
-                                                            "name": "CAFFE' SHAKERATO",
-                                                            "price": "2.5",
-                                                            "details": ""
-                                                            },
-                                                            {
-                                                                "name": "CAFFE' \"ALLA PUGLIESE\"",
-                                                                "price": "1.9",
-                                                                "details": ""
-                                                                }
-                                                            ]},
+   
                                                             { "category": "bowls",
                                                             "label": "Caraffe",
                                                             "image": "pitcher.png",
@@ -534,7 +523,7 @@
                                                                         },
                                                                         {
                                                                             "name": "PROSECCO",
-                                                                            "price": "15",
+                                                                            "price": "18",
                                                                             "details": "1 litro"
                                                                             },
                                                                             {
