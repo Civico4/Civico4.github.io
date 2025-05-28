@@ -30,7 +30,7 @@
         
                                         {
                                             "name": "CYNAR con acqua",
-                                            "price": "2.5",
+                                            "price": "3",
                                             "details": "Piccolo"
                                             },
                                             {
@@ -141,14 +141,14 @@
                                                                                     "details": "Media, 6.5%"
                                                                                     },
                                                                                     {
-                                                                                        "name": "BROOKLIN stonewall inn IPA",
-                                                                                        "price": "3.5",
-                                                                                        "details": "Piccola, 4.6%"
+                                                                                        "name": "1664 Blanche",
+                                                                                        "price": "3",
+                                                                                        "details": "Piccola, 5%"
                                                                                         },
                                                                                         {
-                                                                                            "name": "BROOKLIN stonewall inn IPA",
-                                                                                            "price": "5.5",
-                                                                                            "details": "Media, 4.6%"
+                                                                                            "name": "1664 Blanche",
+                                                                                            "price": "5",
+                                                                                            "details": "Media, 5%"
                                                                                             },
                                                                                             {
                                                                                                 "name": "BROOKLIN lager",
@@ -330,7 +330,7 @@
                                                                                                                                                 },
                                                                                                                                                 {
                                                                                                                                                     "name": "PIADINA",
-                                                                                                                                                    "price": "da 5",
+                                                                                                                                                    "price": "da 5.5",
                                                                                                                                                     "details": "Gusti vari"
                                                                                                                                                     },
                                                                                                                                                     {
